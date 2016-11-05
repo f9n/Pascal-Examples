@@ -1,0 +1,83 @@
+#Question1;
+-Design an algorithm which finds the minimum and maximum 
+ 4-digit cube number. Write the necessary code in Pascal.
+-Output: Minimum 4-digit number
+        Maximum 4-digit number
+-Cube Numbers : 8, 27, 64, 125, 216 ...
+
+#Question2;
+-Design an algorithm which displays the first k
+ 1-automorphic numbers.Write the necessary code in Pascal.
+   Inputs: k
+   Output: 1,5,6,25,....
+-Examples:
+ 1-Automorphic number : 1x(5^2) = 25 , 1x(6^2) = 36 , 1x(25^2) = 625
+-Displays the first k  1-automorphic numbers.
+#Question3;
+-Design a number converter and write the code in Pascal.
+-Program Details
+    1. Your program should convert the given number in decimal format
+       (1<number<3999) into Roman number format.
+-Example
+    Input:5
+    Output:V
+
+    Input:9
+    Output:IX
+-{https://en.wikipedia.org/wiki/Roman_numerals}
+ {I=1,V=5,X=10,L=50,C=100,D=500,M=1000}
+
+#Question4;
+-Design a program which detects the longest repetitive head or tail symbol in
+ a random coin status series.
+-Program Details
+ The program would randomly produce ‘H’ or ‘T’ in each round. The number of
+ rounds should given by the user. (10,100,1000, or 10000). Your program
+ would detect the longest repetitive condition (H or T) for the generated
+ output.
+-Example
+    Input:
+        Round Number:10
+                     H T H H H H T T T H  
+    Output:
+        Number of Repetition:4
+        Coin Status: H
+
+    Input:
+        Round Number:10 
+                     H T H T T H T H T H
+    Output:
+        Number of Repetition: 2
+        Coin Status: T
+    
+    Input:
+        Round Number:10
+                     H H T T H H T T H H
+    Output:
+        Number of Repetition:2
+        Coin Status: H,T
+
+#Question5;
+-Design a graphic generator for the given array consisting of values of
+temperature.
+-Program Details
+     1. The user would give the number of days
+     2. The user would give the temperature values
+     3. The program would generate the graphic using the characters (‘/’,’-‘,’\’)  
+-Example
+     Input: 10
+            22,15,15,13,15,17,17,17,21,22  
+     Output:
+             /
+     \_  _ _/
+       \/
+
+     Input:10
+           15,16,17,17,17,17,17,18,19,20
+     Output:
+             
+               /
+              /
+       _ _ _ /
+      /
+     /
